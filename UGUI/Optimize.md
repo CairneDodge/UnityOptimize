@@ -1,0 +1,2 @@
+ Content Size Fitter、VerticalLayoutGroup、HorizontalLayoutGroup、 AspectRatioFitter、GridLayoutGroup组件效率是很低的，
+ 它们势必会导致所有元素的Rebuild()执行两次,最好可以考虑自行封装一套布局组件
